@@ -11,7 +11,7 @@ else:
 
 
 amount -= cookieprise
-print("Amount is ", amount)
+print("Amount is", amount)
 
 if amount >= cookieprise:
     print("I nave money")
