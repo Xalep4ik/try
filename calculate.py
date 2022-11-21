@@ -50,5 +50,5 @@ def test_case_eff(a, b):
 def test_exe_status(a, b, c):
     percent_of_success = a / b * 100
     percent_of_failed = c / b * 100
-    return print("Percent of successful run :", percent_of_success, "%, "
-                                                                    "Percent of failed run :", percent_of_failed, "%")
+    return print("Percent of successful run :", percent_of_success, "%, ",
+                 "Percent of failed run :", percent_of_failed, "%")
